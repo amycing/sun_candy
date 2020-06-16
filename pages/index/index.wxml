@@ -1,0 +1,20 @@
+<!--index.wxml输入要显示的内容-->
+<!--<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 从零开始</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>-->
+<view class="container">
+    <image class="avtar" src="/images/avatar/bing2.jpg"></image> <!--image组件需要设置一个src属性，该属性执行一张图片的路径，用来显示该图片-->
+    <text class="motto">Welcome, 可爱冰冰</text>
+    <view class="journey-container">
+        <text class="journey">开启小程序之旅</text>
+    </view>
+</view>
